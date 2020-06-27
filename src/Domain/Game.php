@@ -2,7 +2,6 @@
 
 class RollDiceGame
 {
-
     private $playersBets = array();
 
     function addBet($player, $bet)
@@ -32,5 +31,4 @@ class RollDiceGame
 
         unset($this->playersBets[$player]);
     }
-
 }

@@ -1,7 +1,5 @@
 <?php
 
-namespace Domain;
-
 class Bet
 {
     private $amount;
